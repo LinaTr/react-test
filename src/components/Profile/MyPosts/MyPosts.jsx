@@ -10,8 +10,8 @@ function MyPosts() {
           <button>Add post</button>
         </div>
         <div className={s.posts}>
-          <Post />
-          <Post />
+          <Post message="Hello! How are you doing?" like="20"/>
+          <Post message="It's my first post" like="40"/>
         </div>
       </div>
   );
