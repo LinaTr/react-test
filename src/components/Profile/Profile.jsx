@@ -3,7 +3,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 function Profile() {
   return (
-    <div className={s.content}>
+    <div>
       <div>
         <img src="https://img1.akspic.ru/previews/5/3/0/9/7/179035/179035-voda-gora-gidroresursy-rastenie-oblako-550x310.jpg" />
       </div>
