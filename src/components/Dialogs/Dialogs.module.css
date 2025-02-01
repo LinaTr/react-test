@@ -7,6 +7,11 @@
   padding: 15px;
 }
 
+.dialogs a {
+  text-decoration: none;
+  color: black;
+}
+
 .dialogsItems .active {
   color: white;
 }
@@ -15,6 +20,3 @@
   padding: 15px;
 }
 
-.message {
-  size: 1px;
-}
