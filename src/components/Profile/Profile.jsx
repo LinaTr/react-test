@@ -1,13 +1,11 @@
 import s from "./Profile.module.css"
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 function Profile() {
   return (
     <div>
-      <div>
-        <img src="https://img1.akspic.ru/previews/5/3/0/9/7/179035/179035-voda-gora-gidroresursy-rastenie-oblako-550x310.jpg" />
-      </div>
-      <div>ava</div>
+      <ProfileInfo />
       <MyPosts />
     </div>
   );
