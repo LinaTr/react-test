@@ -1,13 +1,9 @@
 import s from "./MyPosts.module.css";
 import Post from "./Post/Post";
 
-function MyPosts() {
-  let posts = [
-    { id: 1, message: "Hello! How are you doing?", likesCount: 20 },
-    { id: 2, message: "It's my first post", likesCount: 40 },
-  ];
+function MyPosts(props) {
 
-  let postsElements = posts.map((post) => (
+  let postsElements = props.posts.map((post) => (
     <Post message={post.message} likesCount={post.likesCount} />
   ));
 
