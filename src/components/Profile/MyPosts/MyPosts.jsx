@@ -11,18 +11,19 @@ function MyPosts(props) {
 
   let addPost = () => {
     let text = newPostElement.current.value;
-    alert(text);
+    props.addPost(text);
+    console.log(text)
   };
 
   return (
     <div className={s.postsBlock}>
-      <h3>My posts</h3>
+      <h3>Мои посты</h3>
       <div>
         <div>
           <textarea ref={newPostElement}></textarea>
         </div>
         <div>
-          <button onClick={addPost}>Add post</button>
+          <button onClick={addPost}>Добавить пост</button>
         </div>
       </div>
       <div className={s.posts}>{postsElements}</div>
